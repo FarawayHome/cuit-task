@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>听课任务</title>
+
+	<link href="../plugins/bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="../plugins/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet"/>
+	<link href="../plugins/bootstrap-table-1.11.0/bootstrap-table.min.css" rel="stylesheet"/>
+	<link href="../plugins/waves-0.7.5/waves.min.css" rel="stylesheet"/>
+	<link href="../plugins/jquery-confirm/jquery-confirm.min.css" rel="stylesheet"/>
+
+	<link href="css/common.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="panel panel-default">
+	    <div class="panel-body">
+	        <p><i class="zmdi zmdi-accounts-list"></i>&nbsp;&nbsp;本学期应当完成听课????,已经完成<a href="">?????</a></p>
+	    </div>
+	</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        提交听课表
+    </div>
+    <div class="panel-body">
+    	<form id = "teacher">
+		<label >教师评价表</label>
+		<ul>
+			<li>
+			<span>授课教师</span>&nbsp;&nbsp;&nbsp;<input type="text" name="teachername">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>上课班级</span>&nbsp;&nbsp;&nbsp;<input type="text" name="teachername"><br><br>
+			<span>课程名称</span>&nbsp;&nbsp;&nbsp;<input type="text" name="teachername">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>讲授课题</span>&nbsp;&nbsp;&nbsp;<input type="text" name="teachername"><br><br>
+			<span>听课时间</span>&nbsp;&nbsp;&nbsp;<input type="text" name="teachername">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>听课地点</span>&nbsp;&nbsp;&nbsp;<input type="text" name="teachername"><br><br>
+			</li>
+			<li>
+				<h4>教学内容</h4>
+				<ul>
+					<li>
+						<p>备课充分，有完整的教案或讲义。教学内容熟拣，不照本宣科，概念、原理讲解清楚准确，论证严谨，教学内容与目的明确，符合教学大纲要求</p>
+						<span>
+							<label>14分&nbsp;<input type="radio" name="optionsRadios1" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>13分&nbsp;<input type="radio" name="optionsRadios1" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>11分&nbsp;<input type="radio" name="optionsRadios1" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>9分&nbsp;<input type="radio" name="optionsRadios1" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios1" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+					<li>
+						<p>教学内容容量恰当，精心组织，重点、难点突出，对其重点分析讲解</p>
+						<span>
+							<label>9分&nbsp;<input type="radio" name="optionsRadios2" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>8分&nbsp;<input type="radio" name="optionsRadios2" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios2" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios2" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>4分&nbsp;<input type="radio" name="optionsRadios2" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+					<li>
+						<p>教学进度适度，内容组织逻辑性强，章节衔接好，理论联系实际，不断充实更新教学内容，跟上学科发展前沿。</p>
+						<span>
+							<label>8分&nbsp;<input type="radio" name="optionsRadios3" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios3" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios3" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>5分&nbsp;<input type="radio" name="optionsRadios3" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>3分&nbsp;<input type="radio" name="optionsRadios3" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h4>教学方法</h4>
+				<ul>
+						<li>
+						<p>普通话熟练，口头语言表达清楚准确，语言生动，富有感染力和吸引力，善于利用语言和其他手段调节课堂气氛</p>
+						<span>
+							<label>9分&nbsp;<input type="radio" name="optionsRadios4" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>8分&nbsp;<input type="radio" name="optionsRadios4" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios4" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios4" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>4分&nbsp;<input type="radio" name="optionsRadios4" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+					<li>
+						<p>板书规范,书写工整清晰,会合理使用其他教学手段(如多媒体、直观教学),效果良好</p>
+						<span>
+							<label>8分&nbsp;<input type="radio" name="optionsRadios5" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios5" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios5" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>5分&nbsp;<input type="radio" name="optionsRadios5" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>3分&nbsp;<input type="radio" name="optionsRadios5" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+					<li>
+						<p>教学各个环节时间把握恰当,注重引导学生思考和学生能力培养,注重探索与改进教学方法,重视课堂内外师生双向交流</p>
+						<span>
+							<label>8分&nbsp;<input type="radio" name="optionsRadios6" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios6" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios6" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>5分&nbsp;<input type="radio" name="optionsRadios6" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>3分&nbsp;<input type="radio" name="optionsRadios6" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h4>教学态度</h4>
+				<ul>
+					<li>
+						<p>遵守教学与课堂纪律,上课通信工具关闭,不迟到早退,准时上下课</p>
+						<span>
+							<label>8分&nbsp;<input type="radio" name="optionsRadios7" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios7" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios7" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>5分&nbsp;<input type="radio" name="optionsRadios7" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>3分&nbsp;<input type="radio" name="optionsRadios7" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+					<li>
+						<p>为人师表，注重教态仪表和言行身教，教书的同时注重育人，引导学生积极向上，不对学生宣讲负面和具有消极影响的言论</p>
+						<span>
+							<label>8分&nbsp;<input type="radio" name="optionsRadios8" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios8" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios8" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>5分&nbsp;<input type="radio" name="optionsRadios8" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>3分&nbsp;<input type="radio" name="optionsRadios8" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+					<li>
+						<p>对学生要求严格,善于管理学生上课出勤和课堂纪律,对学生课前课后教学环节(如布置批阅作业)要求严格</p>
+						<span>
+							<label>9分&nbsp;<input type="radio" name="optionsRadios9" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>8分&nbsp;<input type="radio" name="optionsRadios9" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>7分&nbsp;<input type="radio" name="optionsRadios9" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios9" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>4分&nbsp;<input type="radio" name="optionsRadios9" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h4>教学效果</h4>
+				<ul>
+					<li>
+						<p>学生学习兴趣浓,思维活跃,注意力集中,课堂纪律好,通过本节课教学,学生能掌握本节课的教学内容,感觉受启发,收获大</p>
+						<span>
+							<label>14分&nbsp;<input type="radio" name="optionsRadios10" id="optionsRadios1" value="option1"></label>&nbsp;&nbsp;&nbsp;
+							<label>13分&nbsp;<input type="radio" name="optionsRadios10" id="optionsRadios2" value="option2"></label>&nbsp;&nbsp;&nbsp;
+							<label>11分&nbsp;<input type="radio" name="optionsRadios10" id="optionsRadios3" value="option3"></label>&nbsp;&nbsp;&nbsp;
+							<label>9分&nbsp;<input type="radio" name="optionsRadios10" id="optionsRadios4" value="option4"></label>&nbsp;&nbsp;&nbsp;
+							<label>6分&nbsp;<input type="radio" name="optionsRadios10" id="optionsRadios5" value="option5"></label>&nbsp;&nbsp;&nbsp;
+						</span>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<form >
+				  <div class="form-group">
+				    <label for="name">请输入对老师的综合评语</label>
+				    <textarea class="form-control" rows="3"></textarea>
+				  </div>
+				</form>				
+			</li>
+		</ul>
+		<label>请选择照片<input type="file" id="inputfile"></label>
+		<br>
+		<br>
+		<button type="submit" class="btn btn-default">提交</button>
+	</form>			
+    </div>
+</div>
+</body>
+</html>
