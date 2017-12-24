@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" tppabs="http://www.17sucai.com/preview/1/2017-09-02/bz/css/lib/bootstrap.min.css" />
+		<!--<link rel="stylesheet/less" type="text/css" href="css/less/style.less?1.00" />
+		<script type="text/javascript" src="js/lib/less.js"></script>-->
+		<link rel="stylesheet" type="text/css" href="style.css" tppabs="http://www.17sucai.com/preview/1/2017-09-02/bz/css/less/style.css"/>
+		<title></title>
+	</head>
+
+	<body>
+		<!--
+        	作者：lopo1983@foxmail.com
+        	网站：www.bsfans.com
+        	QQ：64832897
+        	基友群：15832082
+        	时间：2016-12-16
+        	描述：
+        	1.	更新之前做的一个bootstrap step 插件 
+        	2.	更新为less 书写的css 方便定制(已修改为静态css，需定制颜色样式的请查看css/less/comp/)
+        	3.	请在服务器环境运行该页面 谢谢
+        -->
+		<!--在data-step 中输入你想展示的默认步骤 若不填写 则默认为1-->
+		<div class="container">
+			<ul class="nav nav-pills nav-justified step step-arrow">
+				<li>
+					<a>step1</a>
+				</li>
+				<li>
+					<a>step2</a>
+				</li>
+				<li>
+					<a>step3</a>
+				</li>
+				<li>
+					<a>step4</a>
+				</li>
+				<li>
+					<a>step5</a>
+				</li>
+			</ul>
+			<ul class="nav nav-pills nav-justified step step-square" data-step="2">
+				<li>
+					<a>step1</a>
+				</li>
+				<li>
+					<a>step2</a>
+				</li>
+				<li>
+					<a>step3</a>
+				</li>
+				<li>
+					<a>step4</a>
+				</li>
+				<li>
+					<a>step5</a>
+				</li>
+			</ul>
+			<ul class="nav nav-pills nav-justified step step-round" data-step="3">
+				<li>
+					<a>step1</a>
+				</li>
+				<li>
+					<a>step2</a>
+				</li>
+				<li>
+					<a>step3</a>
+				</li>
+				<li>
+					<a>step4</a>
+				</li>
+				<li>
+					<a>step5</a>
+				</li>
+			</ul>
+			<ul class="nav nav-pills nav-justified step step-progress" data-step="4">
+				<li>
+					<a>step1<span class="caret"></span></a>
+				</li>
+				<li>
+					<a>step2<span class="caret"></span></a>
+				</li>
+				<li>
+					<a>step3<span class="caret"></span></a>
+				</li>
+				<li>
+					<a>step4<span class="caret"></span></a>
+				</li>
+				<li>
+					<a>step5<span class="caret"></span></a>
+				</li>
+			</ul>
+		</div>
+		
+		<script type="text/javascript" src="jquery.min.js" tppabs="http://www.17sucai.com/preview/1/2017-09-02/bz/js/lib/jquery.min.js"></script>
+		<script type="text/javascript" src="lib.js" tppabs="http://www.17sucai.com/preview/1/2017-09-02/bz/js/lib/lib.js"></script>
+		<script>
+			$(function() {
+				bsStep();
+				//bsStep(i) i 为number 可定位到第几步 如bsStep(2)/bsStep(3)
+			})
+		</script>
+		
+	</body>
+
+</html>
